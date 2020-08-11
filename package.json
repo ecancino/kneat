@@ -1,0 +1,25 @@
+{
+  "name": "kneat",
+  "version": "1.0.0",
+  "description": "Kneat Software Job Spec and Technical Challenge",
+  "main": "index.js",
+  "repository": "https://github.com/ecancino/kneat",
+  "author": "Eduardo Cancino <ecancinozarate@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "got": "11.5.2",
+    "moment": "2.27.0",
+    "ramda": "0.27.1",
+    "yargs": "15.4.1"
+  },
+  "scripts": {
+    "start": "node . -d 1000000",
+    "test": "jest",
+    "docs": "jsdoc -c .jsdoc.json"
+  },
+  "devDependencies": {
+    "jest": "26.3.0",
+    "jsdoc": "3.6.5"
+  }
+}
